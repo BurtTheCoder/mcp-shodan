@@ -1,11 +1,22 @@
 # Shodan MCP Server
 
+[![smithery badge](https://smithery.ai/badge/@burtthecoder/mcp-shodan)](https://smithery.ai/server/@burtthecoder/mcp-shodan)
+
 A Model Context Protocol (MCP) server for querying the [Shodan API](https://shodan.io) and [Shodan CVEDB](https://cvedb.shodan.io). This server provides comprehensive access to Shodan's network intelligence and security services, including IP reconnaissance, DNS operations, vulnerability tracking, and device discovery. All tools provide structured, formatted output for easy analysis and integration.
 
 <a href="https://glama.ai/mcp/servers/79uakvikcj"><img width="380" height="200" src="https://glama.ai/mcp/servers/79uakvikcj/badge" /></a>
 
 ## Quick Start (Recommended)
 
+### Installing via Smithery
+
+To install Shodan Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@burtthecoder/mcp-shodan):
+
+```bash
+npx -y @smithery/cli install @burtthecoder/mcp-shodan --client claude
+```
+
+### Installing Manually
 1. Install the server globally via npm:
 ```bash
 npm install -g @burtthecoder/mcp-shodan
