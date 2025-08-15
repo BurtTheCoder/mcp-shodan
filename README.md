@@ -1,5 +1,6 @@
 # Shodan MCP Server
 
+[![Trust Score](https://archestra.ai/mcp-catalog/api/badge/quality/BurtTheCoder/mcp-shodan)](https://archestra.ai/mcp-catalog/BurtTheCoder__mcp-shodan)
 [![smithery badge](https://smithery.ai/badge/@burtthecoder/mcp-shodan)](https://smithery.ai/server/@burtthecoder/mcp-shodan)
 
 A Model Context Protocol (MCP) server for querying the [Shodan API](https://shodan.io) and [Shodan CVEDB](https://cvedb.shodan.io). This server provides comprehensive access to Shodan's network intelligence and security services, including IP reconnaissance, DNS operations, vulnerability tracking, and device discovery. All tools provide structured, formatted output for easy analysis and integration.
