@@ -181,7 +181,7 @@ npm run build
 
 ## Requirements
 
-- Node.js (v18 or later)
+- Node.js (v20 or later)
 - A valid [Shodan API Key](https://account.shodan.io/)
 
 ## Troubleshooting
