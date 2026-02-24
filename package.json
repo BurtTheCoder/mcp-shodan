@@ -1,7 +1,7 @@
 {
   "type": "module",
   "name": "@burtthecoder/mcp-shodan",
-  "version": "1.0.20",
+  "version": "1.0.21",
   "description": "A Model Context Protocol server for Shodan API queries.",
   "main": "build/index.js",
   "bin": {
