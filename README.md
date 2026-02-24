@@ -235,9 +235,15 @@ If you see module loading errors:
 
 ## Development
 
-To run in development mode with hot reloading:
+Build the project:
 ```bash
-npm run dev
+npm install
+npm run build
+```
+
+Test interactively with FastMCP's built-in dev tool:
+```bash
+npx fastmcp dev build/index.js
 ```
 
 ## Error Handling
@@ -254,6 +260,7 @@ The server includes comprehensive error handling for:
 
 ## Version History
 
+- v1.1.0: Migrated from raw `@modelcontextprotocol/sdk` to [FastMCP](https://github.com/punkpeye/fastmcp) — modular tool files, automatic schema validation, simplified error handling
 - v1.0.12: Added reverse DNS lookup and improved output formatting
 - v1.0.7: Added CVEs by Product search functionality and renamed vulnerabilities tool to cve_lookup
 - v1.0.6: Added CVEDB integration for enhanced CVE lookups and CPE search functionality
