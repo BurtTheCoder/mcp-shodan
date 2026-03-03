@@ -1,12 +1,31 @@
 # Shodan MCP Server
 
 [![smithery badge](https://smithery.ai/badge/@burtthecoder/mcp-shodan)](https://smithery.ai/server/@burtthecoder/mcp-shodan)
+[![MCP Registry](https://img.shields.io/badge/MCP-Registry-blue)](https://registry.modelcontextprotocol.io)
 
 A Model Context Protocol (MCP) server for querying the [Shodan API](https://shodan.io) and [Shodan CVEDB](https://cvedb.shodan.io). This server provides comprehensive access to Shodan's network intelligence and security services, including IP reconnaissance, DNS operations, vulnerability tracking, and device discovery. All tools provide structured, formatted output for easy analysis and integration.
 
 <a href="https://glama.ai/mcp/servers/79uakvikcj"><img width="380" height="200" src="https://glama.ai/mcp/servers/79uakvikcj/badge" /></a>
 
 ## Quick Start (Recommended)
+
+### Installing via Claude Code
+
+```bash
+claude mcp add --transport stdio --env SHODAN_API_KEY=your-shodan-api-key shodan -- npx -y @burtthecoder/mcp-shodan
+```
+
+### Installing via Codex CLI
+
+```bash
+codex mcp add shodan --env SHODAN_API_KEY=your-shodan-api-key -- npx -y @burtthecoder/mcp-shodan
+```
+
+### Installing via Gemini CLI
+
+```bash
+gemini mcp add -e SHODAN_API_KEY=your-shodan-api-key shodan npx -y @burtthecoder/mcp-shodan
+```
 
 ### Installing via Smithery
 
