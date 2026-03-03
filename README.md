@@ -277,6 +277,7 @@ The server includes comprehensive error handling for:
 
 ## Version History
 
+- v1.0.22: Published to the [official MCP Registry](https://registry.modelcontextprotocol.io) — added `server.json` manifest, CLI install support for Claude Code, Codex, and Gemini CLI
 - v1.1.0: Migrated from raw `@modelcontextprotocol/sdk` to [FastMCP](https://github.com/punkpeye/fastmcp) — modular tool files, automatic schema validation, simplified error handling
 - v1.0.12: Added reverse DNS lookup and improved output formatting
 - v1.0.7: Added CVEs by Product search functionality and renamed vulnerabilities tool to cve_lookup
