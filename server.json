@@ -1,0 +1,59 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.BurtTheCoder/shodan",
+  "description": "MCP server for Shodan API — device search, IP lookup, DNS, and CVE/CPE queries.",
+  "repository": {
+    "url": "https://github.com/BurtTheCoder/mcp-shodan",
+    "source": "github"
+  },
+  "version": "1.0.21",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@burtthecoder/mcp-shodan",
+      "version": "1.0.21",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "SHODAN_API_KEY",
+          "description": "Your Shodan API key",
+          "isRequired": true,
+          "format": "string",
+          "isSecret": true
+        }
+      ]
+    }
+  ],
+  "tools": [
+    {
+      "name": "shodan_search",
+      "description": "Query Shodan's database of internet-connected devices with advanced search filters"
+    },
+    {
+      "name": "ip_lookup",
+      "description": "Retrieve comprehensive information about an IP address including geolocation, open ports, and services"
+    },
+    {
+      "name": "dns_lookup",
+      "description": "Resolve domain names to IP addresses using Shodan's DNS service"
+    },
+    {
+      "name": "reverse_dns_lookup",
+      "description": "Find hostnames associated with IP addresses via reverse DNS"
+    },
+    {
+      "name": "cve_lookup",
+      "description": "Query detailed CVE vulnerability information including CVSS scores, EPSS, and KEV status"
+    },
+    {
+      "name": "cpe_lookup",
+      "description": "Search for Common Platform Enumeration entries by product name"
+    },
+    {
+      "name": "cves_by_product",
+      "description": "Search for vulnerabilities affecting specific products or CPE identifiers"
+    }
+  ]
+}

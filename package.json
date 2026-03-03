@@ -3,6 +3,7 @@
   "name": "@burtthecoder/mcp-shodan",
   "version": "1.0.21",
   "description": "A Model Context Protocol server for Shodan API queries.",
+  "mcpName": "io.github.BurtTheCoder/shodan",
   "main": "build/index.js",
   "bin": {
     "mcp-shodan": "build/index.js"

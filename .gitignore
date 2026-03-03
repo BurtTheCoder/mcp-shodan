@@ -6,3 +6,4 @@ build/
 .env.*.local
 logs/
 projectradar.yaml
+.mcpregistry_*
