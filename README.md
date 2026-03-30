@@ -59,6 +59,10 @@ Configuration file location:
 
 3. Restart Claude Desktop
 
+## Hosted deployment
+
+A hosted deployment is available on [Fronteir AI](https://fronteir.ai/mcp/burtthecoder-mcp-shodan).
+
 ## Alternative Setup (From Source)
 
 If you prefer to run from source or need to modify the code:
