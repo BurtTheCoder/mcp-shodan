@@ -1,5 +1,6 @@
 # Shodan MCP Server
 
+[![Trust Score](https://archestra.ai/mcp-catalog/api/badge/quality/BurtTheCoder/mcp-shodan)](https://archestra.ai/mcp-catalog/BurtTheCoder__mcp-shodan)
 [![smithery badge](https://smithery.ai/badge/@burtthecoder/mcp-shodan)](https://smithery.ai/server/@burtthecoder/mcp-shodan)
 [![MCP Registry](https://img.shields.io/badge/MCP-Registry-blue)](https://registry.modelcontextprotocol.io)
 
